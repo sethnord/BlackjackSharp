@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +56,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +81,199 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="CardImage\2C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\2D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\2H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\2S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\3C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\3H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\3S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\4C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\4D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\4H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\4S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\5C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\5D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\5H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\5S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\6C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\6D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\6H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\6S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\7C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\7D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\7H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\7S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\8C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\8D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\8H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\8S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\9C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\9D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\9H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\9S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\10C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\10D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\10H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\10S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\AC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\aces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\AD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\AH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\AS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\back_cards-07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\blue_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\gray_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\green_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\honor_clubs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\honor_diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\honor_heart-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\honors_spade-14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\JC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\JD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\JH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\JS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\KC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\KD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\KH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\KS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\purple_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\QC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\QD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\QH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\QS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\red_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CardImage\yellow_back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
